@@ -1,0 +1,15 @@
+{
+  "name": "ordering",
+  "repo": "daddinuz/ordering",
+  "version": "0.1.0",
+  "license": "MIT",
+  "src": [
+    "sources/ordering.c",
+    "sources/ordering.h"
+  ],
+  "dependencies": {
+    "daddinuz/panic": "1.0.1",
+    "daddinuz/bitset": "0.1.0"
+  },
+  "makefile": "sources/build.cmake"
+}
